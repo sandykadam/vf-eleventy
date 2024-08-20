@@ -39,6 +39,7 @@ jobs:
         gulp build # to do: we should make this run by `npm test`
     - name: Upload artifact
       uses: actions/upload-artifact@v3
+      id: github-pages
       with:
         # Upload entire repository
         path: 'build'
