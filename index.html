@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" class="vf-no-js">
+  <head>
+    <script>
+// Detect if JS is on and swap vf-no-js for vf-js on the html element
+(function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+</script>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="all" href="/vf-eleventy/css/styles.css" />
+    <title>Eleventy for the VF 2.0</title>
+    <link href="https://visual-framework.github.io/vf-eleventy/feed.xml" type="application/rss+xml" rel="alternate" title="Eleventy for the VF 2.0 RSS Feed">
+    <link rel="shortcut icon" href="https://assets.emblstatic.net/vf/v2.5.0/assets/vf-favicon/assets/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="https://assets.emblstatic.net/vf/v2.5.0/assets/vf-favicon/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://assets.emblstatic.net/vf/v2.5.0/assets/vf-favicon/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://assets.emblstatic.net/vf/v2.5.0/assets/vf-favicon/assets/favicon-16x16.png">
+<link rel="manifest" href="https://assets.emblstatic.net/vf/v2.5.0/assets/vf-favicon/assets/site.webmanifest">
+<link rel="mask-icon" href="https://assets.emblstatic.net/vf/v2.5.0/assets/vf-favicon/assets/safari-pinned-tab.svg" color="#ffffff">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+<!-- Descriptive meta -->
+    <meta name="title" content="Eleventy for the VF 2.0">
+    <meta name="author" content="Page Author">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Tags">
+    <meta name="description" content="Page description">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://visual-framework.github.io/vf-eleventy/">
+    <meta property="og:title" content="Eleventy for the VF 2.0">
+    <meta property="og:description" content="Page description">
+    <meta property="og:image" content="your-image-here.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://visual-framework.github.io/vf-eleventy/">
+    <meta property="twitter:title" content="Eleventy for the VF 2.0">
+    <meta property="twitter:description" content="Page description">
+    <meta property="twitter:image" content="your-image-here.png">
+
+  </head>
+  <body class=" vf-body vf-stack vf-stack--400">
+    <header class="vf-global-header">
+        
+<a href="http://www.embl.de"
+class="vf-logo | vf-logo--has-text">
+  <img class="vf-logo__image" src="https://visual-framework.github.io/vf-eleventy/assets/vf-logo/assets/logo.svg" alt="Visual Framework 2.0" loading="eager">
+  <span class="vf-logo__text">Visual Framework 2.0</span>
+</a>
+
+        <nav class="vf-navigation vf-navigation--main | vf-cluster">
+          <ul class="vf-navigation__list | vf-list | vf-cluster__inner">
+            <li class="vf-navigation__item">
+              <a href="https://stable.visual-framework.dev/" class="vf-navigation__link">About the Visual Framework</a>
+            </li>
+            <li class="vf-navigation__item">
+              <a href="https://stable.visual-framework.dev/documentation" class="vf-navigation__link">Documentation</a>
+            </li>
+            <li class="vf-navigation__item">
+              <a href="https://join.slack.com/t/visual-framework/shared_invite/enQtNDAxNzY0NDg4NTY0LWFhMjEwNGY3ZTk3NWYxNWVjOWQ1ZWE4YjViZmY1YjBkMDQxMTNlNjQ0N2ZiMTQ1ZTZiMGM4NjU5Y2E0MjM3ZGQ" class="vf-navigation__link">Help, chat</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <div class="vf-grid">
+      <div>
+        <section class="vf-intro">
+  <div><!-- empty --></div>
+  <div class="vf-stack">
+  <h1 class="vf-intro__heading ">Eleventy for the VF 2.0</h1>
+  <p class="vf-lede">This allows using the <a class="vf-link" href="https://www.11ty.io">11ty</a> static site generator with direct access to <a class="vf-link" href="https://github.com/visual-framework/vf-core">Visual Framework 2.0</a> components.</p>
+  <p class="vf-intro__text">☝️that also means dynamic building of just the CSS and JS you need.</p>
+  </div>
+</section>
+<section class="embl-grid embl-grid--has-centered-content">
+   <div class="vf-section-header"><h2 class="vf-section-header__heading"> Quickstart</h2></div> 
+  <div class="vf-content">
+  <pre><code>
+  yarn create @visual-framework/vf-eleventy your-new-site-name vf-eleventy
+<p></code></pre></p>
+<p>This will install a new <a href="https://github.com/visual-framework/vf-eleventy/"><code>vf-eleventy</code></a> to a folder named <code>your-new-site-name</code>.</p>
+<p>Then follow the onscreen prompts and links below to develop and configure.</p>
+<h2>Longer install?</h2>
+<p>The above too easy or have questions? <a href="https://github.com/visual-framework/vf-eleventy#1-creating-a-new-project-powered-by-vf-eleventy">Read this guide</a>.</p>
+  </div>
+</section>
+<section class="vf-intro | embl-grid embl-grid--has-centered-content">
+ <div class="vf-section-header"><h2 class="vf-section-header__heading"> What you get</h2></div> 
+<div class="vf-content">
+<ul>
+<li>the Eleventy static site generator</li>
+<li><a href="posts">initial templating setup</a></li>
+<li><a href="https://visual-framework.github.io/vf-core/">access to the Visual Framework component system</a></li>
+</ul>
+</div>
+</section>
+<section class="vf-intro | embl-grid embl-grid--has-centered-content">
+ <div class="vf-section-header"><h2 class="vf-section-header__heading"> Component installation</h2></div> 
+<div class="vf-content">
+<p><a href="https://stable.visual-framework.dev/components/">Find a component in the VF directory</a> and use npm/Yarn or install it manually.</p>
+<ul>
+<li>installation: <code>yarn add @visual-framework/vf-logo</code></li>
+<li>updating: <code>yarn upgrade-interactive --latest</code></li>
+</ul>
+<h3>Manual installation for customisation</h3>
+<ol>
+<li>Download a pattern</li>
+<li>Copy it to <code>./src/components/vf-component-name</code></li>
+</ol>
+<h3>Create your own local component</h3>
+<p>You can add a custom VF-compatible component to <code>./src/components</code> and use it in your site.</p>
+<ul>
+<li><code>gulp vf-component</code></li>
+</ul>
+<p>You'll find a <code>vf-sample</code> component there, we've used it below:</p>
+<p>Code:</p>
+<pre>{% render "@vf-sample", {text: "with some text"} %}</pre>
+<p><br/>Returns:</p>
+<pre><div class="vf-sample">
+  I'm a sample with some text
+</div>
+</pre>
+</div>
+</section>
+
+      </div>
+    </div>
+    <div class="vf-grid">
+  <div class="vf-body--text">
+    Geting started links:
+    <a href="https://github.com/visual-framework/vf-eleventy" class="vf-link">View vf-eleventy on GitHub</a> |
+    <a href="https://github.com/visual-framework/vf-core" class="vf-link">VF-Core v2.0</a> |
+    <a href="https://join.slack.com/t/visual-framework/shared_invite/enQtNDAxNzY0NDg4NTY0LWFhMjEwNGY3ZTk3NWYxNWVjOWQ1ZWE4YjViZmY1YjBkMDQxMTNlNjQ0N2ZiMTQ1ZTZiMGM4NjU5Y2E0MjM3ZGQ" class="vf-link">Chat for help</a>
+
+    
+
+  </div>
+</div>
+
+<!-- This page was generated on Invalid DateTime -->
+<!-- IE11 polyfill JS -->
+<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=default"></script>
+<script src="/vf-eleventy/scripts/scripts.js"></script>
+
+  </body>
+</html>
